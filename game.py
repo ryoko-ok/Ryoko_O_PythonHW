@@ -23,16 +23,18 @@ while player == False:
 	print("Choose your weapon!\n")
 	print("*****************************\n")
 
-	player = input("choose rock, paper or scissors: ")
+	player = input ("choose rock, paper or scissors: ")
 	player = player.lower()
 
-	print("computer chose ", computer, "\n")
-	print("player chose ", player, "\n")
+	print("computer chose", computer, "\n")
+	print("player chose", player, "\n")
 
 	if player.lower() == "quit":
 		exit()
+
 	elif computer == player:
 		print("tie! no one wins, play again")
+
 	elif player.lower() == "rock":
 		if computer == "paper":
 			print("You lose!", computer, "covers", player, "\n")
@@ -63,7 +65,7 @@ while player == False:
 	# handle all lives lost for player or AI
 	if player_lives is 0:
 		print("Out of lives! you suck at this game. Would you like to play again?\n")
-		choice = input("Y / N")
+		choice = input ("Y / N")
 		print(choice)
 
 		if (choice is "N") or (choice is "n"):
@@ -80,7 +82,7 @@ while player == False:
 
 	elif computer_lives is 0:
 		print("Computer is out of lives! you suck at this game. Would you like to play again?\n")
-		choice = input("Y / N")
+		choice = input ("Y / N")
 		print(choice)
 
 		if (choice is "N") or (choice is "n"):
