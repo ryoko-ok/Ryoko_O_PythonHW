@@ -5,3 +5,9 @@ temp = int(input("enter temperature"))
 
 if temp < 4:
 	print("water is frozen - a solid")
+
+elif temp > 4 and temp < 100:
+	print("water is liquid")
+
+elif temp >= 100:
+	print("water is a gas")
