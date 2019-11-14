@@ -5,11 +5,11 @@ from Example import compareStuff
 
 while gameWars.player == False:
 # set player to True
-	print("*****************************\n")
-	print("gameWars.Computer lives; ", gameWars.computer_lives, "/", gameWars.total_lives, "\n")
-	print("Player lives; ", gameWars.player_lives, "/", gameWars.total_lives,"\n")
+	print("..*..*..*..*..*..*..*..*..*..*..*..*..\n")
+	print("gameWars.Computer lives; ", My life Points "\n")
+	print("Player lives; ", Your life Points "\n")
 	print("Choose your weapon!\n")
-	print("*****************************\n")
+	print("..*..*..*..*..*..*..*..*..*..*..*..*..\n")
 
 	player = input ("choose rock, paper or scissors: ")
 	player = player.lower()
